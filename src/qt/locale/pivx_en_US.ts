@@ -3845,8 +3845,8 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>2) Why are my PIV unspendable?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://iq.cash/</source>
+        <translation>https://iq.cash/</translation>
     </message>
     <message>
         <source>1</source>

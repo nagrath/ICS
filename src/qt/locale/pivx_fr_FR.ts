@@ -3841,8 +3841,8 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>2) Pourquoi mes PIV ne peuvent pas être dépensés?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://iq.cash/</source>
+        <translation>https://iq.cash/</translation>
     </message>
     <message>
         <source>1</source>

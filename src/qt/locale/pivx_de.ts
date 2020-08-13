@@ -3837,8 +3837,8 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>2) Wieso kann ich meine PIV nicht ausgeben?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://iq.cash/</source>
+        <translation>https://iq.cash/</translation>
     </message>
     <message>
         <source>1</source>
