@@ -26,7 +26,7 @@ Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVX Wiki](https://github.com/PIVX-Project/PIVX/wiki)
+* See the documentation at the [PIVX Wiki](https://github.com/IQCASH/IQCash/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.pivx.org/).
 * Join our Discord server [IQCash Discord](https://discord.gg/Ruc4K4V)
