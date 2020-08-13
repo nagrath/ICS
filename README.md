@@ -10,7 +10,7 @@ The goal of PIVX is to achieve a decentralized, sustainable cryptocurrency with 
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [iq.cash](http://www.iq.cash) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=1262920). Join the community at [IQCash Discord](https://discord.gg/Ruc4K4V).
+More information at [iq.cash](http://www.iq.cash) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=4360591). Join the community at [IQCash Discord](https://discord.gg/Ruc4K4V).
 
 ### Coin Specs
 <table>

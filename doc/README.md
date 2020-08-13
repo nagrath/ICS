@@ -28,7 +28,7 @@ Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
 
 * See the documentation at the [PIVX Wiki](https://github.com/IQCASH/IQCash/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.iq.cash/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=4360591.0) or on the [PIVX Forum](http://forum.iq.cash/).
 * Join our Discord server [IQCash Discord](https://discord.gg/Ruc4K4V)
 
 Building
@@ -56,7 +56,7 @@ The PIVX repo's [root README](/README.md) contains relevant information on the d
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [PIVX](http://forum.iq.cash/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=4360591.0) or the [PIVX](http://forum.iq.cash/) forum.
 * Join the [IQCash Discord](https://discord.gg/Ruc4K4V).
 
 ### Miscellaneous
