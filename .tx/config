@@ -2,6 +2,6 @@
 host = https://www.transifex.com
 
 [IQCASH-translations.qt-translation-42x]
-file_filter = src/qt/locale/pivx_<lang>.ts
-source_file = src/qt/locale/pivx_en.ts
+file_filter = src/qt/locale/iqcash_<lang>.ts
+source_file = src/qt/locale/iqcash_en.ts
 source_lang = en

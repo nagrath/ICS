@@ -265,11 +265,11 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.fHelp || jsonRequest.params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop PIVX server.");
+            "\nStop IQCASH server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PIVX server stopping";
+    return "IQCASH server stopping";
 }
 
 
@@ -359,32 +359,32 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true },
 
-        /* PIVX features */
-        {"pivx", "listmasternodes", &listmasternodes, true },
-        {"pivx", "getmasternodecount", &getmasternodecount, true },
-        {"pivx", "createmasternodebroadcast", &createmasternodebroadcast, true },
-        {"pivx", "decodemasternodebroadcast", &decodemasternodebroadcast, true },
-        {"pivx", "relaymasternodebroadcast", &relaymasternodebroadcast, true },
-        {"pivx", "masternodecurrent", &masternodecurrent, true },
-        {"pivx", "startmasternode", &startmasternode, true },
-        {"pivx", "createmasternodekey", &createmasternodekey, true },
-        {"pivx", "getmasternodeoutputs", &getmasternodeoutputs, true },
-        {"pivx", "listmasternodeconf", &listmasternodeconf, true },
-        {"pivx", "getmasternodestatus", &getmasternodestatus, true },
-        {"pivx", "getmasternodewinners", &getmasternodewinners, true },
-        {"pivx", "getmasternodescores", &getmasternodescores, true },
-        {"pivx", "preparebudget", &preparebudget, true },
-        {"pivx", "submitbudget", &submitbudget, true },
-        {"pivx", "mnbudgetvote", &mnbudgetvote, true },
-        {"pivx", "getbudgetvotes", &getbudgetvotes, true },
-        {"pivx", "getnextsuperblock", &getnextsuperblock, true },
-        {"pivx", "getbudgetprojection", &getbudgetprojection, true },
-        {"pivx", "getbudgetinfo", &getbudgetinfo, true },
-        {"pivx", "mnbudgetrawvote", &mnbudgetrawvote, true },
-        {"pivx", "mnfinalbudget", &mnfinalbudget, true },
-        {"pivx", "checkbudgets", &checkbudgets, true },
-        {"pivx", "mnsync", &mnsync, true },
-        {"pivx", "spork", &spork, true },
+        /* IQCASH features */
+        {"iqcash", "listmasternodes", &listmasternodes, true },
+        {"iqcash", "getmasternodecount", &getmasternodecount, true },
+        {"iqcash", "createmasternodebroadcast", &createmasternodebroadcast, true },
+        {"iqcash", "decodemasternodebroadcast", &decodemasternodebroadcast, true },
+        {"iqcash", "relaymasternodebroadcast", &relaymasternodebroadcast, true },
+        {"iqcash", "masternodecurrent", &masternodecurrent, true },
+        {"iqcash", "startmasternode", &startmasternode, true },
+        {"iqcash", "createmasternodekey", &createmasternodekey, true },
+        {"iqcash", "getmasternodeoutputs", &getmasternodeoutputs, true },
+        {"iqcash", "listmasternodeconf", &listmasternodeconf, true },
+        {"iqcash", "getmasternodestatus", &getmasternodestatus, true },
+        {"iqcash", "getmasternodewinners", &getmasternodewinners, true },
+        {"iqcash", "getmasternodescores", &getmasternodescores, true },
+        {"iqcash", "preparebudget", &preparebudget, true },
+        {"iqcash", "submitbudget", &submitbudget, true },
+        {"iqcash", "mnbudgetvote", &mnbudgetvote, true },
+        {"iqcash", "getbudgetvotes", &getbudgetvotes, true },
+        {"iqcash", "getnextsuperblock", &getnextsuperblock, true },
+        {"iqcash", "getbudgetprojection", &getbudgetprojection, true },
+        {"iqcash", "getbudgetinfo", &getbudgetinfo, true },
+        {"iqcash", "mnbudgetrawvote", &mnbudgetrawvote, true },
+        {"iqcash", "mnfinalbudget", &mnfinalbudget, true },
+        {"iqcash", "checkbudgets", &checkbudgets, true },
+        {"iqcash", "mnsync", &mnsync, true },
+        {"iqcash", "spork", &spork, true },
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -409,11 +409,11 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false },
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false },
         {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false },
-        {"zerocoin", "getzpivseed", &getzpivseed, false },
-        {"zerocoin", "setzpivseed", &setzpivseed, false },
+        {"zerocoin", "getzicsseed", &getzicsseed, false },
+        {"zerocoin", "setzicsseed", &setzicsseed, false },
         {"zerocoin", "generatemintlist", &generatemintlist, false },
-        {"zerocoin", "searchdzpiv", &searchdzpiv, false },
-        {"zerocoin", "dzpivstate", &dzpivstate, false },
+        {"zerocoin", "searchdzics", &searchdzics, false },
+        {"zerocoin", "dzicsstate", &dzicsstate, false },
 
 #endif // ENABLE_WALLET
 };
@@ -597,7 +597,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> pivx-cli " + methodname + " " + args + "\n";
+    return "> iqcash-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

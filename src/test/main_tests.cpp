@@ -8,7 +8,7 @@
 #include "main.h"
 #include "primitives/transaction.h"
 #include "script/sign.h"
-#include "test_pivx.h"
+#include "test_iqcash.h"
 #include <boost/test/unit_test.hpp>
 
 BOOST_FIXTURE_TEST_SUITE(main_tests, TestingSetup)
@@ -117,7 +117,7 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
 {
     CAmount nSum = 0;
     for (int nHeight = 0; nHeight < 1; nHeight += 1) {
-        /* premine in block 1 (60,001 PIV) */
+        /* premine in block 1 (60,001 ICS) */
         CAmount nSubsidy = GetBlockValue(nHeight);
         BOOST_CHECK(nSubsidy <= 60001 * COIN);
         nSum += nSubsidy;

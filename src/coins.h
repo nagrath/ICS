@@ -21,7 +21,7 @@
 
 /** 
 
-    ****Note - for PIVX we added fCoinStake to the 2nd bit. Keep in mind when reading the following and adjust as needed.
+    ****Note - for IQCASH we added fCoinStake to the 2nd bit. Keep in mind when reading the following and adjust as needed.
  * Pruned version of CTransaction: only retains metadata and unspent transaction outputs
  *
  * Serialized format:
@@ -471,7 +471,7 @@ public:
     size_t DynamicMemoryUsage() const;
 
     /** 
-     * Amount of pivx coming in to a transaction
+     * Amount of iqcash coming in to a transaction
      * Note that lightweight clients may not know anything besides the hash of previous transactions,
      * so may not be able to calculate this.
      *

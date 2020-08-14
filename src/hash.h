@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_HASH_H
-#define PIVX_HASH_H
+#ifndef IQCASH_HASH_H
+#define IQCASH_HASH_H
 
 #include "crypto/ripemd160.h"
 #include "crypto/sha256.h"
@@ -492,5 +492,5 @@ public:
  */
 uint64_t SipHashUint256(uint64_t k0, uint64_t k1, const uint256& val);
 
-#endif // PIVX_HASH_H
+#endif // IQCASH_HASH_H
 

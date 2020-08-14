@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_SERIALIZE_H
-#define PIVX_SERIALIZE_H
+#ifndef IQCASH_SERIALIZE_H
+#define IQCASH_SERIALIZE_H
 
 #include <algorithm>
 #include <array>
@@ -943,4 +943,4 @@ size_t GetSerializeSize(const S& s, const T& t)
     return (CSizeComputer(s.GetType(), s.GetVersion()) << t).size();
 }
 
-#endif // PIVX_SERIALIZE_H
+#endif // IQCASH_SERIALIZE_H

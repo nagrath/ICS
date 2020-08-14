@@ -25,7 +25,7 @@ git diff -U0 HEAD~1.. | ./contrib/devtools/clang-format-diff.py -p1 -i -v
 copyright\_header.py
 ====================
 
-Provides utilities for managing copyright headers of `The PIVX
+Provides utilities for managing copyright headers of `The IQCASH
 developers` in repository source files. It has three subcommands:
 
 ```
@@ -123,7 +123,7 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the PIVX repository is done in the following way:
+Configuring the github-merge tool for the IQCASH repository is done in the following way:
 
     git config githubmerge.repository IQCASH/IQCash/
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
@@ -158,7 +158,7 @@ for further details.
 optimize-pngs.py
 ================
 
-A script to optimize png files in the PIVX
+A script to optimize png files in the IQCASH
 repository (requires pngcrush).
 
 security-check.py and test-security-check.py
@@ -181,10 +181,10 @@ If only supported symbols are used the return value will be 0 and the output wil
 
 If there are 'unsupported' symbols, the return value will be 1 a list like this will be printed:
 
-    .../64/test_pivx: symbol memcpy from unsupported version GLIBC_2.14
-    .../64/test_pivx: symbol __fdelt_chk from unsupported version GLIBC_2.15
-    .../64/test_pivx: symbol std::out_of_range::~out_of_range() from unsupported version GLIBCXX_3.4.15
-    .../64/test_pivx: symbol _ZNSt8__detail15_List_nod from unsupported version GLIBCXX_3.4.15
+    .../64/test_iqcash: symbol memcpy from unsupported version GLIBC_2.14
+    .../64/test_iqcash: symbol __fdelt_chk from unsupported version GLIBC_2.15
+    .../64/test_iqcash: symbol std::out_of_range::~out_of_range() from unsupported version GLIBCXX_3.4.15
+    .../64/test_iqcash: symbol _ZNSt8__detail15_List_nod from unsupported version GLIBCXX_3.4.15
 
 update-translations.py
 ======================

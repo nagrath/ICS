@@ -1,4 +1,4 @@
-Source: pivx
+Source: iqcash
 Section: utils
 Priority: optional
 Maintainer: Fuzzbawls <fuzzbawls@gmail.com>
@@ -32,11 +32,11 @@ Homepage: http://www.iq.cash
 Vcs-Git: git://github.com/IQCASH/IQCash.git
 Vcs-Browser: http://github.com/IQCASH/IQCash
 
-Package: pivxd
+Package: iqcashd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- PIVX is a free, open source peer-to-peer electronic cash system that
+ IQCASH is a free, open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -45,14 +45,14 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 18.5+ GB of space, slowly growing.
  .
- This package provides the daemon, pivxd, and the CLI tool
- pivx-cli to interact with the daemon.
+ This package provides the daemon, iqcashd, and the CLI tool
+ iqcash-cli to interact with the daemon.
 
-Package: pivx-qt
+Package: iqcash-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- PIVX is a free, open source peer-to-peer electronic cash system that
+ IQCASH is a free, open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -61,4 +61,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 18.5+ GB of space, slowly growing.
  .
- This package provides Pivx-Qt, a GUI for PIVX based on Qt.
+ This package provides IQCash-Qt, a GUI for IQCASH based on Qt.

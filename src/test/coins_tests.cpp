@@ -8,7 +8,7 @@
 #include "script/standard.h"
 #include "uint256.h"
 #include "utilstrencodings.h"
-#include "test/test_pivx.h"
+#include "test/test_iqcash.h"
 
 #include <vector>
 #include <map>
@@ -238,7 +238,7 @@ BOOST_AUTO_TEST_CASE(updatecoins_simulation_test)
 
             // 1/10 times create a coinbase
             if (InsecureRandRange(10) == 0 || coinbaseids.size() < 10) {
-                // PIVX: don't test for duplicate coinbases as those are not possible due to
+                // IQCASH: don't test for duplicate coinbases as those are not possible due to
                 // BIP34 enforced since the beginning.
                 coinbaseids[tx.GetHash()] = tx.vout[0].nValue;
                 assert(CTransaction(tx).IsCoinBase());
