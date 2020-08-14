@@ -1,0 +1,8 @@
+/usr/bin/iqcash-cli		--	gen_context(system_u:object_r:iqcash_exec_t,s0)
+/usr/sbin/iqcashd		--	gen_context(system_u:object_r:iqcash_exec_t,s0)
+/usr/lib(64)?/iqcash/iqcashd		--	gen_context(system_u:object_r:iqcash_exec_t,s0)
+
+/etc/iqcash(/.*)?		gen_context(system_u:object_r:iqcash_conf_t,s0)
+/var/lib/iqcash(/.*)?		gen_context(system_u:object_r:iqcash_var_lib_t,s0)
+
+(/var)?/run/iqcashd(/.*)?   gen_context(system_u:object_r:iqcash_var_run_t,s0)

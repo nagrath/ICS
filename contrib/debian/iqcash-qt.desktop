@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=IQCASH Core
+Comment=IQCASH P2P Cryptocurrency
+Comment[fr]=IQCASH, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=IQCASH, eşten eşe kriptografik sanal para birimi
+Exec=iqcash-qt %u
+Terminal=false
+Type=Application
+Icon=iqcash128
+MimeType=x-scheme-handler/iqcash;
+Categories=Office;Finance;
+StartupWMClass=IQCash-qt
